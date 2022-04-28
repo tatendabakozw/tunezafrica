@@ -5,7 +5,7 @@ import cover_1 from "../../public/cover.jpg";
 
 function MusicPotion({ heading, music }) {
   return (
-    <div className="flex flex-col md:pb-20 pb-8">
+    <div className="flex flex-col md:pb-20 pb-8 ">
       <div className="flex flex-row justify-between pb-4">
         <p className="text-gray-800 text-lg font-semibold">{heading}</p>
         <div className="icons flex flex-row items-center gap-2">
