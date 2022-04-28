@@ -5,7 +5,7 @@ import cover_1 from "../../public/cover.jpg";
 
 function LatestMusic({heading, music}) {
   return (
-    <div className="flex flex-col md:pb-20 md:p-4 rounded shadow md:pb-0 pb-8 md:bg-white md:mb-4">
+    <div className="flex flex-col md:p-8 rounded-lg shadow md:pb-0 pb-8 md:bg-white md:mb-8">
     <div className="flex flex-row justify-between pb-4">
       <p className="text-gray-800 text-lg font-semibold">{heading}</p>
       <div className="icons flex flex-row items-center gap-2">
