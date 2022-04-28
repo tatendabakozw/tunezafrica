@@ -76,6 +76,7 @@ function SinglePost() {
               {
                 [1,2,3,4].map((item, index)=>(
                   <SongItem
+                  key={index}
                     picture={picture}
                     category={'Hip-Hop'}
                     item_name={'Gafa Life'}
@@ -95,6 +96,7 @@ function SinglePost() {
             <div className="flex flex-col space-y-4">
               {[1, 2, 3, 4, 5].map((item, index) => (
                 <TrendingPost 
+                key={index}
                   artist_name={'Winky D'}
                   item_name={'Gafa Life'}
                   category={'Dancehall Album'}
