@@ -7,7 +7,7 @@ function SongItem({ picture, category, item_name, artist_name, id }) {
   const router = useRouter()
   return (
     <div onClick={() => router.push(`/post/${id}`)} className="flex flex-col cursor-pointer">
-      <div className="relative flex md:h-44 md:w-44 h-40 w-40 shadow overflow-hidden">
+      <div className="relative flex md:h-44 md:w-44 h-40 w-40 overflow-hidden">
         <p className="bg-green-700 cursor-pointer text-xs font-semibold text-white absolute bottom-2 right-2 rounded z-10 p-1">
           {category}
         </p>
