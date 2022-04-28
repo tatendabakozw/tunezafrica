@@ -5,14 +5,14 @@ import cover_1 from "../../public/cover.jpg";
 
 function LatestMusic({heading, music}) {
   return (
-    <div className="flex flex-col md:pb-20 pb-8">
+    <div className="flex flex-col md:pb-20 md:p-8 md:pb-0 pb-8 md:bg-white">
     <div className="flex flex-row justify-between pb-4">
       <p className="text-gray-800 text-lg font-semibold">{heading}</p>
       <div className="icons flex flex-row items-center gap-2">
-        <span className="bg-white shadow p-1 rounded">
+        <span className="md:bg-gray-100 bg-white shadow p-1 rounded">
           <ChevronLeftIcon height={20} width={20} />
         </span>
-        <span className="bg-white shadow p-1 rounded">
+        <span className="md:bg-gray-100 bg-white shadow p-1 rounded">
           <ChevronRightIcon height={20} width={20} />
         </span>
       </div>
